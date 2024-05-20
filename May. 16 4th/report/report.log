@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  16 MAY 2024 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.16)  20 MAY 2024 10:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Volumes/GUJUN/projects/matlab/80846/May. 16 4th/report/report.tex"
-(/Volumes/GUJUN/projects/matlab/80846/May. 16 4th/report/report.tex
+**"/Users/jun/Documents/80846/May. 16 4th/report/report.tex"
+(/Users/jun/Documents/80846/May. 16 4th/report/report.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -194,128 +194,223 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<figures/model_task_space.pdf, id=1, 794.97pt x 614.295pt>
-File: figures/model_task_space.pdf Graphic file (type pdf)
-<use figures/model_task_space.pdf>
-Package pdftex.def Info: figures/model_task_space.pdf  used on input line 32.
+<figures/model_computed.pdf, id=1, 794.97pt x 614.295pt>
+File: figures/model_computed.pdf Graphic file (type pdf)
+<use figures/model_computed.pdf>
+Package pdftex.def Info: figures/model_computed.pdf  used on input line 42.
 (pdftex.def)             Requested size: 310.4979pt x 239.93027pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
+) [2 <./figures/model_computed.pdf>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 60.
- [1
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 78.
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (102.92865pt too wide) in paragraph at lines 72--73
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (51.8988pt too wide) in paragraph at lines 73--76
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-[2 <./figures/model_task_space.pdf>]
-<figures/result_task_space.pdf, id=34, 614.295pt x 794.97pt>
-File: figures/result_task_space.pdf Graphic file (type pdf)
-<use figures/result_task_space.pdf>
-Package pdftex.def Info: figures/result_task_space.pdf  used on input line 114.
-(pdftex.def)             Requested size: 276.00105pt x 357.1752pt.
- [3]
-<figures/model_computed.pdf, id=38, 794.97pt x 614.295pt>
-File: figures/model_computed.pdf Graphic file (type pdf)
-<use figures/model_computed.pdf>
-Package pdftex.def Info: figures/model_computed.pdf  used on input line 136.
-(pdftex.def)             Requested size: 310.4979pt x 239.93027pt.
- [4 <./figures/result_task_space.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
-
- []
-
-[5 <./figures/model_computed.pdf>]
-Overfull \hbox (51.8988pt too wide) in paragraph at lines 170--171
+Overfull \hbox (51.8988pt too wide) in paragraph at lines 78--79
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.86896pt too wide) in paragraph at lines 171--173
+Overfull \hbox (0.86896pt too wide) in paragraph at lines 79--81
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (68.90875pt too wide) in paragraph at lines 176--177
+Overfull \hbox (68.90875pt too wide) in paragraph at lines 84--85
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<figures/result_computed.pdf, id=68, 614.295pt x 794.97pt>
+<figures/result_computed.pdf, id=30, 614.295pt x 794.97pt>
 File: figures/result_computed.pdf Graphic file (type pdf)
 <use figures/result_computed.pdf>
-Package pdftex.def Info: figures/result_computed.pdf  used on input line 198.
+Package pdftex.def Info: figures/result_computed.pdf  used on input line 116.
 (pdftex.def)             Requested size: 276.00105pt x 357.1752pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[4 <./figures/result_computed.pdf>]
+<figures/desiredTaskSpaceIKModel.pdf, id=48, 794.97pt x 614.295pt>
+File: figures/desiredTaskSpaceIKModel.pdf Graphic file (type pdf)
+<use figures/desiredTaskSpaceIKModel.pdf>
+Package pdftex.def Info: figures/desiredTaskSpaceIKModel.pdf  used on input line 147.
+(pdftex.def)             Requested size: 310.4979pt x 239.93027pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[5 <./figures/desiredTaskSpaceIKModel.pdf>]
+Overfull \hbox (17.8789pt too wide) in paragraph at lines 197--198
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+<figures/result_task_space_trajectory.pdf, id=101, 614.295pt x 794.97pt>
+File: figures/result_task_space_trajectory.pdf Graphic file (type pdf)
+<use figures/result_task_space_trajectory.pdf>
+Package pdftex.def Info: figures/result_task_space_trajectory.pdf  used on input line 232.
+(pdftex.def)             Requested size: 276.00105pt x 357.1752pt.
+ [7 <./figures/result_task_space_trajectory.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+<figures/model_inverseDynamics.pdf, id=118, 794.97pt x 614.295pt>
+File: figures/model_inverseDynamics.pdf Graphic file (type pdf)
+<use figures/model_inverseDynamics.pdf>
+Package pdftex.def Info: figures/model_inverseDynamics.pdf  used on input line 255.
+(pdftex.def)             Requested size: 310.4979pt x 239.93027pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+[8 <./figures/model_inverseDynamics.pdf>]
+Overfull \hbox (142.61853pt too wide) in paragraph at lines 274--277
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.20892pt too wide) in paragraph at lines 291--293
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (12.20892pt too wide) in paragraph at lines 293--294
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.53894pt too wide) in paragraph at lines 294--296
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (91.58868pt too wide) in paragraph at lines 296--297
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+<figures/result_adaptive_controller.pdf, id=157, 614.295pt x 794.97pt>
+File: figures/result_adaptive_controller.pdf Graphic file (type pdf)
+<use figures/result_adaptive_controller.pdf>
+Package pdftex.def Info: figures/result_adaptive_controller.pdf  used on input line 314.
+(pdftex.def)             Requested size: 276.00105pt x 357.1752pt.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
 
  []
 
-[7 <./figures/result_computed.pdf>] [8] (./report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--336
+
+ []
+
+[10 <./figures/result_adaptive_controller.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+[11] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4862 strings out of 474116
- 71672 string characters out of 5743682
- 1949187 words of memory out of 5000000
- 27191 multiletter control sequences out of 15000+600000
- 563918 words of font info for 57 fonts, out of 8000000 for 9000
+ 4888 strings out of 474116
+ 72470 string characters out of 5743682
+ 1962187 words of memory out of 5000000
+ 27216 multiletter control sequences out of 15000+600000
+ 564086 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,7n,69p,266b,2205s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (8 pages, 247523 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on report.pdf (11 pages, 272651 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 229 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
