@@ -4,7 +4,7 @@
 \usepackage{graphicx} % for including images
 \usepackage{amsmath}
 
-\title{80846 - Report - 5th}
+\title{80846 - Report - 6th}
 \author{GU JUN, 6132230056-4}
 \date{\today}
 
@@ -13,21 +13,20 @@
 \maketitle
 
 
-\section{\centering \Large iterative learning controller}
+\section{\centering \Large AI based controller using reinforcement learning}
 
 \subsection*{Problem Statement}
 
-According to the class, we are required to complete the \\
-1. learning law block \\
-2. iterative learning model based on transport delay block \\
+In this report, I will using reinforment learning method to design and build a controller for a two-joints robot.\\
 
+Instead of using Matlab to simulate everything, I will use Isaac-sim to simulate my robot dynamic model and controller.\\
 
 % model of the system
 \subsection{Simulink Model}
 See the Figure \ref{fig:model_ilc} below. Besides transport delay blocks, I also used the subsystem block and a clock block to restart $q$ every trail. The length of the trail is $1$ second.
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.9\textwidth]{report/figures/model_ilc.pdf}
+    \includegraphics[width=0.9\textwidth]{figures/model_ilc.pdf}
     \caption{Simulink Model of the iterative learning controller}
     \label{fig:model_ilc}
 \end{figure}
@@ -65,7 +64,7 @@ As a result, I got the following Figure \ref{fig:result_task_space_plot}, where 
 \\
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{report/figures/result_ilc.pdf}
+    \includegraphics[width=0.8\textwidth]{figures/result_ilc.pdf}
     \caption{as you can see, the error is decreasing every trail.}
     \label{fig:result_ilc}
 \end{figure}
@@ -76,33 +75,10 @@ As a result, I got the following Figure \ref{fig:result_task_space_plot}, where 
 
 \newpage
 
-\section{\centering \Large two-joints case} 
-
-\subsection*{Problem Statement}
-
-For the two-joints case, we only need to change the robot dynamic to a two-joints version, we already have done this before, so we can just copy it from the report before.
-
-\subsection{Simulation Results}
-
-There I got this result
-
-\ref{fig:result_ilc_muilt_joints}. \\
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.8\textwidth]{report/figures/result_ilc_muilt_joints.pdf}
-    \caption{The result is not as good as the one-joint case.}
-    \label{fig:result_ilc_muilt_joints}
-\end{figure}
-
-
-
-\newpage
-
 \section{Explanation}
 
 
 
-\subsection{iterative learning controller}
 Writing the learning block is easy to do, but how to store and read the data from the last trial is harder. Besides the transport delay block, I also used a clock block and re-settable subsystem block to reset the robot dynamic.\\
 
 As you can see, the errors decreased in every trial.
